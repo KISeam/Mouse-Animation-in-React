@@ -22,7 +22,6 @@ const App = () => {
         className="absolute w-[6px] h-[6px] bg-gray-600 rounded-full pointer-events-none"
         style={{
           transform: `translate(${mousePosition.x - 2}px, ${mousePosition.y - 2}px)`,
-          transition: 'transform 0.1s ease-out',
         }}
       ></div>
 
